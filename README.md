@@ -8,7 +8,7 @@ and predicts whether the macine is likely to fail.
 1. I created 300 sample machine readings (the data is made up for practice).
 2. I trained a Random Forest model on 80% of the data.
 3. I tested it on the other 20%, which model had never seen.
-4. I used recall as my main measure, because a missed failure is worse than a false alsrm.
+4. I used recall as my main measure, because a missed failure is worse than a false alarm.
 
 ## Results
 - The model catches about 77% of the machines that fail.
